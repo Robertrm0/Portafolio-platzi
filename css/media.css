@@ -1,0 +1,231 @@
+@media screen and (max-width: 1024px) {
+
+	.portfolio {
+		padding: 0;
+	}
+
+	.container {
+		padding: 0 1em;
+	}
+
+	.hero {
+		height: auto;
+		position: relative;
+		overflow: hidden;
+		padding: 2em;
+
+	}
+
+	.hero-image {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		opacity: 0.3;
+	}
+
+	h1 {
+		z-index: 2;
+		font-size: 2em;
+	}
+
+	.event-list-title{
+		margin-left: 50px;
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.burger-button {
+		display: block;
+	}
+
+
+	.header {
+		display: block;
+		height: auto;
+	}
+
+	.header ol {
+		display: block;
+	}
+
+	.header ol li {
+		height: 50px;
+		
+	}
+
+	.header a {
+		justify-content: center;
+		height: 40px;
+		font-size: 2em;
+		text-decoration: underline;
+		margin-bottom: .5em;
+	}
+
+	.logo {
+		text-align: center;
+	}
+
+	.menu {
+		position: fixed;
+		background:rgba(5,111,255, .9);
+		z-index: 3;
+		top: 0;
+		left: -100vw;
+		width: 100vw;
+		height: 100vh;
+		bottom:0; 
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: 1.0s;
+
+	}
+
+	.is-active {
+		left: 0;
+	}
+
+	.div-hero {
+		display: block;
+
+	}
+
+	.div-hero h1 {
+		
+
+	}
+
+	.project {
+		display: block;
+		margin-left:-20px;
+	}
+
+	.project-imageContainer {
+		width: auto;
+		text-align: center;
+	}
+
+	.project-details {
+		width: auto;
+		font-size: 16px;
+
+	}
+
+	.project-course, .project-date, .project-url {
+		margin: .4em 0;
+	}
+
+	.project-title {
+		font-size: 2em;
+		margin-bottom: .3em;
+	}
+
+	.project-url {
+		font-size: 1em;
+	}
+
+	.project-course {
+		font-size: 1.2em;
+	}
+
+	.project-date {
+		font-size: 1em;
+	}
+
+	.project-description{
+		font-size: .8em;
+	}
+
+	.event {
+		width: auto;
+		flex-shrink: initial;
+	}
+
+	.event img {
+		width: 100%;
+	}
+
+	.event-list-title {
+		margin-left: 0px;
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+	h1 {
+		font-size: 2em;
+		margin-left: -30px;
+	}
+
+	.project-details {
+		width: auto;
+		font-size: 17px;
+
+	}
+
+	.event-detail {
+		margin: -2em .5em .5em;
+		padding: 1em;
+	}
+
+	.contact {
+		height: auto;
+		padding: 1.5em 0;
+		text-align: center;
+		display: block;
+	}
+
+
+	.form-email button {
+		margin: 1em auto;
+	}
+
+	.form-email h3 {
+		margin-top: 0;
+	}
+
+	.footer {
+		display: block;
+		text-align: center;
+		border: 1px solid transparent;
+	}
+
+	.portfolio-titulo {
+		margin-left: 0px;
+	}
+
+	.social {
+		margin-left: 0px;
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+	h1 {
+		font-size: 1.3em;
+	}
+
+	.hero {
+
+		padding: 2em 1em;
+	}
+
+
+}
