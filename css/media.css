@@ -4,9 +4,9 @@
 		padding: 0;
 	}
 
-	.container {
+	/* .container {
 		padding: 0 1em;
-	}
+	} */
 
 	.hero {
 		height: auto;
@@ -106,7 +106,6 @@
 
 	.project {
 		display: block;
-		margin-left:-20px;
 	}
 
 	.project-imageContainer {
